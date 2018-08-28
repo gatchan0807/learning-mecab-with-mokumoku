@@ -1,9 +1,10 @@
 import re
-import bs4
 import sys
-import MeCab
 import urllib.request
 from pprint import pprint
+
+import bs4
+import MeCab
 
 if len(sys.argv) == 2:
     url = sys.argv[1]
